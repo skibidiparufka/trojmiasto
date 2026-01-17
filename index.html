@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trójmiasto RP - Emergency Hamburg</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="loading-screen" id="loading">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <span class="progress-text">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Trójmiasto <span>RP</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Start</a>
+                <a href="#features" class="nav-link">O nas</a>
+                <a href="#team" class="nav-link">Ekipa</a>
+                <a href="#rules" class="nav-link">Regulamin</a>
+                <a href="#join" class="nav-link">Zagraj</a>
+            </div>
+            <button class="nav-toggle" aria-label="Otwórz menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i data-lucide="zap"></i>
+                        <span>Najlepszy Roleplay na Roblox</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">Odkryj klimat</span>
+                        <span class="title-line gradient-text">Trójmiasta</span>
+                    </h1>
+                    <p class="hero-description">
+                        Poczuj unikalną atmosferę. Zaawansowany roleplay, 
+                        realistyczna ekonomia i profesjonalna administracja czekają na Ciebie.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary">
+                            <span>Zacznij Grę</span>
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Dostępność</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">Nowy</span>
+                            <span class="stat-label">Sezon</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">Profesjonalny</span>
+                            <span class="stat-label">Roleplay</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nasza Ekipa</h2>
+                    <p class="section-description">Osoby dbające o Twój komfort na serwerze</p>
+                </div>
+<div class="team-card owner">
+    <div class="member-avatar">
+        <img src="oskubvny.png" alt="Właściciel">
+    </div>
+    <h3>youngmajster_</h3>
+    <p>Właściciel & Developer</p>
+    <div class="member-socials">
+        <a href="https://www.youtube.com/@oskubanymordo/featured" target="_blank" aria-label="YouTube">
+            <i data-lucide="youtube"></i>
+        </a>
+        <a href="https://www.tiktok.com/@oskubvny" target="_blank" aria-label="TikTok">
+            <i data-lucide="music-2"></i>
+        </a>
+        <a href="https://steamcommunity.com/profiles/76561199850519164/" target="_blank" aria-label="Steam">
+            <i data-lucide="gamepad-2"></i>
+        </a>
+    </div>
+</div>
+<div class="team-card owner">
+    <div class="member-avatar">
+        <img src="galejza.webp" alt="Właściciel">
+    </div>
+    <h3>Galejza</h3>
+    <p>Właściciel</p>
+    <div class="member-socials">
+        </a>
+        <a href="https://steamcommunity.com/profiles/76561199430630245	" target="_blank" aria-label="Steam">
+            <i data-lucide="gamepad-2"></i>
+        </a>
+    </div>
+</div>
+       <div class="team-card owner">
+    <div class="member-avatar">
+        <img src="brunek.webp" alt="Właściciel">
+    </div>
+    <h3>Brunek1964</h3>
+    <p>Zastępca Właściciela</p>
+    <div class="member-socials">
+    </div>
+</div>
+        </section>
+
+       <section id="rules" class="rules">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Zasady Serwera</h2>
+                    <p class="section-description">Krótkie wytyczne dla lepszej zabawy wszystkich graczy</p>
+                </div>
+                <div class="rules-grid">
+                    <div class="rule-card">
+                        <div class="rule-icon"><i data-lucide="shield"></i></div>
+                        <h3>Podstawy</h3>
+                        <ul class="rule-list">
+                            <li>Szanuj innych graczy i administrację</li>
+                            <li>Zakaz obrażania i toksycznego zachowania</li>
+                            <li>Używaj poprawnego języka polskiego</li>
+                        </ul>
+                    </div>
+                    <div class="rule-card">
+                        <div class="rule-icon"><i data-lucide="gamepad-2"></i></div>
+                        <h3>Roleplay</h3>
+                        <ul class="rule-list">
+                            <li>Zakaz RDM i VDM</li>
+                            <li>Zawsze odgrywaj strach (FearRP)</li>
+                            <li>Nie wychodź z gry podczas akcji</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="join">
+            <div class="container">
+                <div class="join-content">
+                    <div class="join-text">
+                        <h2>Dołącz do nas już teraz</h2>
+                        <p>Zacznij swoją przygodę w wirtualnym Trójmieście</p>
+                    </div>
+                    <div class="join-actions">
+                        <div class="join-links">
+                            <a href="https://www.roblox.com/games/start?placeId=7711635737&launchData=joinCode%3D79bme405" class="join-link" target="_blank">
+                                <i data-lucide="play"></i>
+                                <span>Graj na Roblox</span>
+                            </a>
+                            <a href="https://discord.gg/SwHZcrbsmw" class="join-link" target="_blank">
+                                <i data-lucide="message-circle"></i>
+                                <span>Discord</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Trójmiasto RP. Wszelkie prawa zastrzeżone.</p>
+                <div class="footer-links">
+                    <span>Strona utworzona przez: <strong>youngmajster_</strong></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
